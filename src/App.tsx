@@ -1,8 +1,14 @@
 import React from 'react';
+import GlobalStyle from './globalStyles';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Navbar } from './components';
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <Router>
+      <GlobalStyle />
+      <Navbar />
+    </Router>
   );
 }
 
