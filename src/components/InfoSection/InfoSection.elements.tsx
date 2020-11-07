@@ -2,27 +2,27 @@ import React, { HTMLAttributes } from 'react';
 import styled from 'styled-components';
 
 interface InfoSecProps extends React.DetailsHTMLAttributes<HTMLAttributes<HTMLDivElement>> {
-  lightBg: boolean;
+  lightBg?: boolean;
 }
 
 interface InfoRowProps extends React.DetailsHTMLAttributes<HTMLAttributes<HTMLDivElement>> {
-  imgStart: string;
+  imgStart?: string;
 }
 
 interface TopLineProps extends React.DetailsHTMLAttributes<HTMLAttributes<HTMLDivElement>> {
-  lightTopLine: boolean;
+  lightTopLine?: boolean;
 }
 
 interface HeadingProps extends React.DetailsHTMLAttributes<HTMLAttributes<HTMLHeadingElement>> {
-  lightText: boolean;
+  lightText?: boolean;
 }
 
 interface SubtitleProps extends React.DetailsHTMLAttributes<HTMLAttributes<HTMLParagraphElement>> {
-  lightTextDesc: boolean;
+  lightTextDesc?: boolean;
 }
 
 interface ImgWrapperProps extends React.DetailsHTMLAttributes<HTMLAttributes<HTMLDivElement>> {
-  start: boolean;
+  start?: boolean;
 }
 
 

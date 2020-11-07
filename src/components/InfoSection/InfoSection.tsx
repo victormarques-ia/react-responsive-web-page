@@ -14,8 +14,8 @@ type Props = {
   lightTextDesc: boolean;
   description: string;
   buttonLabel: string;
-  primary: boolean;
-  start: boolean;
+  primary?: boolean;
+  start?: boolean;
   img: string;
   alt: string
 }
