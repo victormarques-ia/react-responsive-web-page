@@ -8,3 +8,6 @@ A simple, yet fully responsive website created with React and Styled components.
 
 - First run the command `yarn` or `npm install`, to install the dependencies! 
 - Finally run `yarn start` or `npm run` to start the application on port 3001.
+
+## Design credits
+- [Brian Design](https://twitter.com/briandesignz)
