@@ -5,19 +5,19 @@ import { Button, Container } from '../../globalStyles';
 import { Heading, Img, ImgWrapper, InfoColumn, InfoRow, InfoSec, Subtitle, TextWrapper, TopLine } from './InfoSection.elements';
 
 type Props = {
-  lightBg: boolean;
-  imgStart: string;
-  lightTopLine: boolean;
-  topLine: string;
-  lightText: boolean;
-  headLine: string;
-  lightTextDesc: boolean;
-  description: string;
-  buttonLabel: string;
+  lightBg?: boolean;
+  imgStart?: string;
+  lightTopLine?: boolean;
+  topLine?: string;
+  lightText?: boolean;
+  headLine?: string;
+  lightTextDesc?: boolean;
+  description?: string;
+  buttonLabel?: string;
   primary?: boolean;
   start?: boolean;
-  img: string;
-  alt: string
+  img?: string;
+  alt?: string
 }
 
 const InfoSection: React.FC<Props> = ({ lightBg, imgStart, lightTopLine, topLine, lightText, headLine, lightTextDesc, description, buttonLabel, primary, start, img, alt }: Props) => {
