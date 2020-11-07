@@ -2,7 +2,7 @@ import React, { ButtonHTMLAttributes } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
 interface ButtonProps extends React.DetailsHTMLAttributes<ButtonHTMLAttributes<HTMLButtonElement>> {
-  primary: boolean;
+  primary?: boolean;
   big?: boolean;
   fontBig?: boolean;
 }
