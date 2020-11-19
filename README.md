@@ -10,4 +10,4 @@ A simple, yet fully responsive website created with React and Styled components.
 - Finally run `yarn start` or `npm run` to start the application on port 3001.
 
 ## Design credits
-- [Brian Design](https://twitter.com/briandesignz)
+- Brian Design
